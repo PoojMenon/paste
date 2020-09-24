@@ -18,16 +18,37 @@
       "path": "../../primitives/combobox"
     },
     {
-      "path": "../form"
+      "path": "../../../paste-design-tokens"
     },
     {
       "path": "../../../paste-icons"
+    },
+    {
+      "path": "../input"
+    },
+    {
+      "path": "../input-box"
+    },
+    {
+      "path": "../spinner"
+    },
+    {
+      "path": "../../layout/stack"
+    },
+    {
+      "path": "../../../paste-style-props"
     },
     {
       "path": "../../../paste-libraries/styling"
     },
     {
       "path": "../../primitives/text"
+    },
+    {
+      "path": "../../../paste-theme"
+    },
+    {
+      "path": "../../../paste-types"
     }
   ]
 }
