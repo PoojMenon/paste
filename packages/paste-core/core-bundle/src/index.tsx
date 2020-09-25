@@ -27,6 +27,7 @@ export * from '@twilio-paste/screen-reader-only';
 export * from '@twilio-paste/separator';
 export * from '@twilio-paste/spinner';
 export * from '@twilio-paste/stack';
+export * from '@twilio-paste/table';
 export * from '@twilio-paste/tabs';
 export * from '@twilio-paste/tabs-primitive';
 export * from '@twilio-paste/text';
