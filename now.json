@@ -24,6 +24,41 @@
       }
     },
     {
+      "src": "form-elements/input/",
+      "status": 301,
+      "headers": {
+        "Location": "components/input/"
+      }
+    },
+    {
+      "src": "form-elements/checkbox/",
+      "status": 301,
+      "headers": {
+        "Location": "components/checkbox/"
+      }
+    },
+    {
+      "src": "form-elements/select/",
+      "status": 301,
+      "headers": {
+        "Location": "components/select/"
+      }
+    },
+    {
+      "src": "form-elements/radio-group/",
+      "status": 301,
+      "headers": {
+        "Location": "components/radio-group/"
+      }
+    },
+    {
+      "src": "form-elements/textarea/",
+      "status": 301,
+      "headers": {
+        "Location": "components/textarea/"
+      }
+    },
+    {
       "handle": "filesystem"
     },
     {
