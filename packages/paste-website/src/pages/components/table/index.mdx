@@ -8,6 +8,7 @@ slug: /components/table/
 import {graphql} from 'gatsby';
 import {Anchor} from '@twilio-paste/anchor';
 import {Box} from '@twilio-paste/box';
+import {UnorderedList, ListItem} from '@twilio-paste/list';
 import {Table, THead, TBody, TFoot, Tr, Th, Td} from '@twilio-paste/table';
 import Changelog from '@twilio-paste/table/CHANGELOG.md';
 import {Text} from '@twilio-paste/text';
@@ -326,29 +327,95 @@ Table rows (`Tr`) can be set with either top, middle, or bottom vertical alignme
 
 ### Tr
 
-| Property             | Default token                            | Modifiable? |
-| -------------------- | ---------------------------------------- | ----------- |
-| background-color     | Even rows - color-background-row-striped | No          |
-| border-bottom-width  | border-width-10                          | No          |
-| border-bottom- color | color-border-lighter                     | No          |
+| Property             | Default token                           | Modifiable? |
+| -------------------- | --------------------------------------- | ----------- |
+| background-color     | Even rows: color-background-row-striped | No          |
+| border-bottom-width  | border-width-10                         | No          |
+| border-bottom- color | color-border-lighter                    | No          |
 
 ### Th
 
-| Property    | Default token                                                            | Modifiable? |
-| ----------- | ------------------------------------------------------------------------ | ----------- |
-| font-size   | font-size-30                                                             | No          |
-| line-height | line-height-30                                                           | No          |
-| font-weight | font-weight-bold                                                         | No          |
-| padding     | space-40, First - padding-left: space-50, Last - padding-right: space-50 | No          |
+<Box marginBottom="space60">
+  <Table variant="fixed">
+    <THead>
+      <Tr>
+        <Th>Property</Th>
+        <Th>Default token</Th>
+        <Th>Modifiable?</Th>
+      </Tr>
+    </THead>
+    <TBody>
+      <Tr>
+        <Td>font-size</Td>
+        <Td>font-size-30</Td>
+        <Td>No</Td>
+      </Tr>
+      <Tr>
+        <Td>line-height</Td>
+        <Td>line-height-30</Td>
+        <Td>No</Td>
+      </Tr>
+      <Tr>
+        <Td>font-weight</Td>
+        <Td>font-weight-bold</Td>
+        <Td>No</Td>
+      </Tr>
+      <Tr>
+        <Td>padding</Td>
+        <Td>
+          <UnorderedList marginBottom="space0">
+            <ListItem>space-40</ListItem>
+            <ListItem>First cell in row: padding-left: space-50</ListItem>
+            <ListItem>Last cell in row: padding-right: space-50</ListItem>
+          </UnorderedList>
+        </Td>
+        <Td>No</Td>
+      </Tr>
+    </TBody>
+  </Table>
+</Box>
 
 ### Td
 
-| Property    | Default token                                                            | Modifiable? |
-| ----------- | ------------------------------------------------------------------------ | ----------- |
-| font-size   | font-size-30                                                             | No          |
-| line-height | line-height-30                                                           | No          |
-| font-weight | font-weight-bold                                                         | No          |
-| padding     | space-40, First - padding-left: space-50, Last - padding-right: space-50 | No          |
+<Box marginBottom="space60">
+  <Table variant="fixed">
+    <THead>
+      <Tr>
+        <Th>Property</Th>
+        <Th>Default token</Th>
+        <Th>Modifiable?</Th>
+      </Tr>
+    </THead>
+    <TBody>
+      <Tr>
+        <Td>font-size</Td>
+        <Td>font-size-30</Td>
+        <Td>No</Td>
+      </Tr>
+      <Tr>
+        <Td>line-height</Td>
+        <Td>line-height-30</Td>
+        <Td>No</Td>
+      </Tr>
+      <Tr>
+        <Td>font-weight</Td>
+        <Td>font-weight-bold</Td>
+        <Td>No</Td>
+      </Tr>
+      <Tr>
+        <Td>padding</Td>
+        <Td>
+          <UnorderedList marginBottom="space0">
+            <ListItem>space-40</ListItem>
+            <ListItem>First cell in row: padding-left: space-50</ListItem>
+            <ListItem>Last cell in row: padding-right: space-50</ListItem>
+          </UnorderedList>
+        </Td>
+        <Td>No</Td>
+      </Tr>
+    </TBody>
+  </Table>
+</Box>
 
 ---
 
